@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Library Application</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="no_account_sign_up">No Account? Sign Up...</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="enter_user_name">Enter User name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="email">Email Address</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="address">Address</string>
+    <string name="enter_confirm_password">Enter Confirm Password</string>
+    <string name="enter_contact_no">Enter Contact_no</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="select_gender">Select gender</string>
+    <string name="enter_address">Enter address</string>
+    <string name="password_and_confirm_password_does_not_match">Password and Confirm password does not match</string>
+    <string name="you_have_registered_successfully">You have registered successfully </string>
+    <string name="you_have_logged_in_successfully">You have Logged In successfully </string>
+    <string name="please_enter_correct_username_and_password">Please enter correct username and password.. </string>
+    <string name="username_already_exists">Username already exists </string>
+    <string name="you_have_already_registered_please_login_if_forget_password_then_click_on_forget_password">You have alraedy registered. Please login or click on forget password..</string>
+</resources>

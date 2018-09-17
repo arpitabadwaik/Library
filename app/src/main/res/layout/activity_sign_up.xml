@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp">
+
+        <EditText
+            android:id="@+id/edt_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/user_name"
+            android:layout_marginTop="10dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/txt_user_name_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_user_name"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/txt_password_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_password"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/edt_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/txt_confirm_password_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_confirm_password"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/edt_contact_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contact_no"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:maxLength="10"/>
+
+        <TextView
+            android:id="@+id/txt_contact_no_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_contact_no"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:layout_marginTop="10dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/txt_email_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_email_address"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/txt_gender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/gender"
+                android:layout_weight="1"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_male"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/male"
+                        android:layout_weight="1"/>
+
+                    <RadioButton
+                        android:id="@+id/radio_female"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="@string/female"
+                        android:layout_weight="1"/>
+                    </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edt_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address"
+            android:layout_marginTop="10dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/txt_address_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_address"
+            android:visibility="gone"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"/>
+
+</RelativeLayout>
